@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Our Guide Book
+    </title>
+    <meta name="description" content="Our Guide Book" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #0066ff 0%, #00ff9d 100%);
+      }
+      .exercise-link:hover {
+      color: #3B82F6;
+    }
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+          <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            <!--Icon from: http://www.potlabicons.com/ -->
+            <a href="index.html"><img src="image2/logo1.png"  class=" w-64 h-14  cursor-pointer "></a>
+            
+              <rect fill="#2a2a31" x="10.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
+            
+            
+          </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Guide</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="index.html">Home</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="Features.html">Features</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="About.html">About</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <button
+            id="navAction"
+            class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+          >
+            Get App
+          </button>
+        </div>
+      </div>
+     
+    </nav>
+   
+   
+    <section class=" py-8">
+    
+        <div class="container mx-auto mt-8">
+            <h3  class="my-4 text-4xl font-bold leading-tight"> Class 12 Nepali</h3>
+            <table class="table-auto border-collapse w-full">
+              <thead>
+                <tr>
+                  <th class="px-4 py-2 border">क्र.स.</th>
+                  <th class="px-4 py-2 border">शीर्षक</th>
+                  <th class="px-4 py-2 border">लिङ्क</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border px-4 py-2">१</td>
+                  <td class="border px-4 py-2">उज्यालो यात्रा</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">२</td>
+                  <td class="border px-4 py-2">घरझागडा</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">३</td>
+                  <td class="border px-4 py-2">चिकित्सा विज्ञान र आयुर्वेद चिकित्सा‌</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">४</td>
+                  <td class="border px-4 py-2">यस्तो कहिल्‍यै नहोस्</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">५</td>
+                  <td class="border px-4 py-2">लक्ष्मीप्रसाद देवकोटा</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">६</td>
+                  <td class="border px-4 py-2">अधिकार दुलो कि कर्तव्य ठुलो ?</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">७</td>
+                  <td class="border px-4 py-2">शत्रु</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">८</td>
+                  <td class="border px-4 py-2">नेपाली हाम्रों श्रम र सिप</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">९</td>
+                  <td class="border px-4 py-2">मेरो देशको शिक्षा</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">१०</td>
+                  <td class="border px-4 py-2">व्यावसायिक चिठी</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">११</td>
+                  <td class="border px-4 py-2">व्यावसायिक चिठी</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">१२</td>
+                  <td class="border px-4 py-2">पाब्लो पिकासों</td>
+                  <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2">१३</td>
+                    <td class="border px-4 py-2"> पख्नोस्‌</td>
+                    <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                  </tr>
+                  <tr>
+                    <td class="border px-4 py-2">१४</td>
+                    <td class="border px-4 py-2">घरको माया‌</td>
+                    <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                  </tr>
+                  <tr>
+                    <td class="border px-4 py-2">१५</td>
+                    <td class="border px-4 py-2">गाउँमाथि एउटा कविता</td>
+                    <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                  </tr>
+                  <tr>
+                    <td class="border px-4 py-2">१६</td>
+                    <td class="border px-4 py-2">आयाम</td>
+                    <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                  </tr>
+                  <tr>
+                    <td class="border px-4 py-2">१७</td>
+                    <td class="border px-4 py-2">सुनाई  पाठ </td>
+                    <td class="border px-4 py-2"><a href="#" class="exercise-link hover:underline">अव्यास</a></td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        
+          
+           
+          <h3  class="my-4 text-4xl font-bold leading-tight"> Don't miss our English Notes</h3>
+          <a href="class10english.html">
+            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Click Here
+            </button>
+          </a>
+
+     
+        
+        </section>
+    
+    
+    
+    <!--Footer-->
+    <footer class="bg-white">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex-1 mb-6 text-black">
+            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+              <!--Icon from: http://www.potlabicons.com/ -->
+              
+            </a>
+            <a href="index.html"><img src="image2/logo1.png "  class="w-48   cursor-pointer " ></a>
+          </div>
+          
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="About.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500"> About</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="privacy.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Social</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Instagram</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Key Points</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class10english.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+                  Class 10 English Guide
+                  </a>
+              </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="class10nepali.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+                      Class 10 Nepali Guide
+                      </a>
+                  </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class11english.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+                  Class 11 English Guide
+                  </a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class11nepali.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Class 11 Nepali Guide
+                 </a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class12english.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500"> Class 12 English Guide
+                </a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class12nepali.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500"ont> Class 12 Nepali Guide</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+    </footer>
+    <!-- jQuery if you need it
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>

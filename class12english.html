@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Our Guide Book
+    </title>
+    <meta name="description" content="Our Guide Book" />
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #0066ff 0%, #00ff9d 100%);
+      }
+      .exercise-link:hover {
+      color: #3B82F6;
+    }
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0 text-white">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+          <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+            <!--Icon from: http://www.potlabicons.com/ -->
+            <a href="index.html"><img src="image2/logo1.png"  class=" w-64 h-14  cursor-pointer "></a>
+            
+              <rect fill="#2a2a31" x="10.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
+            
+            
+          </a>
+        </div>
+        <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Guide</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center">
+            <li class="mr-3">
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="index.html">Home</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="Features.html">Features</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="About.html">About</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <button
+          id="navAction"
+          class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
+        >
+          Get App
+        </button>
+        </div>
+      </div>
+     
+    </nav>
+    <!--Hero-->
+   
+    <section class=" py-8">
+
+        <div class="container mx-auto mt-8">
+          <h3  class="my-4 text-4xl font-bold leading-tight"> Class 12 English</h3>
+            <h3 class="my-4 text-4xl font-bold leading-tight">
+                Section I : Language Development
+              </h3>
+            <table class="table-auto border-collapse w-full">
+              <thead>
+                <tr>
+                  <th class="px-4 border py-2">Unit</th>
+                  <th class="px-4 border py-2">Title</th>
+                  <th class="px-4 border py-2">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border px-4 py-2">1</td>
+                  <td class="border px-4 py-2">Critical Thinking</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les1.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">2</td>
+                  <td class="border px-4 py-2">Family</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les2.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">3</td>
+                  <td class="border px-4 py-2">Sports</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les3.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">4</td>
+                  <td class="border px-4 py-2">Technology</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les4.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">5</td>
+                  <td class="border px-4 py-2">Education</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les5.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">6</td>
+                  <td class="border px-4 py-2">Money and Economy</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les6.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">7</td>
+                  <td class="border px-4 py-2">Humour</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les7.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">8</td>
+                  <td class="border px-4 py-2">Human Culture</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les8.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">9</td>
+                  <td class="border px-4 py-2">Ecology and Environment</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les9.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">10</td>
+                  <td class="border px-4 py-2">Career Opportunities</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les10.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">11</td>
+                  <td class="border px-4 py-2">Hobbies</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les11.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">12</td>
+                  <td class="border px-4 py-2">Animal World</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les12.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">13</td>
+                  <td class="border px-4 py-2">History</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les13.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">14</td>
+                  <td class="border px-4 py-2">Human Rights</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les14.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">15</td>
+                  <td class="border px-4 py-2">Leisure and Entertainment</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les15.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">16</td>
+                  <td class="border px-4 py-2">Fantasy</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les16.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">17</td>
+                  <td class="border px-4 py-2">War and Peace</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les17.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">18</td>
+                  <td class="border px-4 py-2">Music and Creation</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les18.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">19</td>
+                  <td class="border px-4 py-2">Migration and Diaspora</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les19.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">20</td>
+                  <td class="border px-4 py-2">Power and Politics</td>
+                  <td class="border px-4 py-2"><a href="class12languagehtml/les20.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <div class="container mx-auto mt-8">
+            <h3 class="my-4 text-4xl font-bold leading-tight">
+              Section II : Literature
+            </h3>
+            <h1> Short Stories </h1>
+            <table class="table-auto border-collapse w-full">
+              <thead>
+                <tr>
+                  <th class="px-4 py-2 border">Chapter</th>
+                  <th class="px-4 py-2 border">Title</th>
+                  <th class="px-4 py-2 border">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border px-4 py-2">1</td>
+                  <td class="border px-4 py-2">Neighbours</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les1.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">2</td>
+                  <td class="border px-4 py-2">A Respectable Woman</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les2.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">3</td>
+                  <td class="border px-4 py-2">A Devoted Son</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les3.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">4</td>
+                  <td class="border px-4 py-2">The Treasure in the Forest</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les4.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">5</td>
+                  <td class="border px-4 py-2">My Old Home</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les5.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">6</td>
+                  <td class="border px-4 py-2">The Half-closed Eyes of the Buddha and the Slowly Sinking Sun</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les6.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">7</td>
+                  <td class="border px-4 py-2">A Very Old Man with Enormous Wings</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/shortstorieshtml/les7.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <div class="container mx-auto mt-8">
+            <h1> Poems</h1>
+            <table class="table-auto border-collapse w-full">
+              <thead>
+                <tr>
+                  <th class="px-4 py-2 border">Chapter</th>
+                  <th class="px-4 py-2 border">Title</th>
+                  <th class="px-4 py-2 border">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border px-4 py-2">1</td>
+                  <td class="border px-4 py-2">A Day</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/poemshtml/les1.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">2</td>
+                  <td class="border px-4 py-2">Every Morning I Wake</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/poemshtml/les2.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">3</td>
+                  <td class="border px-4 py-2">I Was My Own Route</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/poemshtml/les3.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">4</td>
+                  <td class="border px-4 py-2">The Awakening Age</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/poemshtml/les4.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">5</td>
+                  <td class="border px-4 py-2">Soft Storm</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/poemshtml/les5.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+           
+          <div class="container mx-auto mt-8">
+            <h1>
+              Essays</h1>
+            <table class="table-auto border-collapse w-full">
+              <thead>
+                <tr>
+                  <th class="px-4 py-2 border">Chapter</th>
+                  <th class="px-4 py-2 border">Title</th>
+                  <th class="px-4 py-2 border">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border px-4 py-2">1</td>
+                  <td class="border px-4 py-2">On Libraries</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/eassyhtml/les1.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">2</td>
+                  <td class="border px-4 py-2">Marriage as a Social Institution</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/eassyhtml/les2.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">3</td>
+                  <td class="border px-4 py-2">Knowledge and Wisdom</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/eassyhtml/les3.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">4</td>
+                  <td class="border px-4 py-2">Humility</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/eassyhtml/les4.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">5</td>
+                  <td class="border px-4 py-2">Human Rights and the Age of Inequality</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/eassyhtml/les5.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+
+          <div class="container mx-auto mt-8">
+            <h1> One Act Plays
+            </h1>
+            <table class="table-auto border-collapse w-full">
+              <thead>
+                <tr>
+                  <th class="px-4 py-2 border">Chapter</th>
+                  <th class="px-4 py-2 border">Title</th>
+                  <th class="px-4 py-2 border">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="border px-4 py-2">1</td>
+                  <td class="border px-4 py-2">A Matter of Husbands</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/onesactplahtml/les1.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">2</td>
+                  <td class="border px-4 py-2">Facing Death</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/onesactplahtml/les2.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">3</td>
+                  <td class="border px-4 py-2">The Bull</td>
+                  <td class="border px-4 py-2"><a href="class12litraturehtml/onesactplahtml/les3.html" class="exercise-link hover:underline">Exercise</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+         
+          
+          <h3  class="my-4 text-4xl font-bold leading-tight"> Don't miss our nepali  Notes</h3>
+          <a href="class12nepali.html">
+            <button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Click Here
+            </button>
+          </a>
+
+     
+        
+        </section>
+
+    
+    
+ 
+    <footer class="bg-white">
+      <div class="container mx-auto px-8">
+        <div class="w-full flex flex-col md:flex-row py-6">
+          <div class="flex-1 mb-6 text-black">
+            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+           
+              
+            </a>
+            <a href="index.html"><img src="image2/logo1.png "  class="w-48   cursor-pointer " ></a>
+          </div>
+          
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="About.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500"> About</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="privacy.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Social</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Instagram</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <p class="uppercase text-gray-500 md:mb-6">Key Points</p>
+            <ul class="list-reset mb-6">
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class10english.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+                  Class 10 English Guide
+                  </a>
+              </li>
+                  <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                    <a href="class10nepali.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+                      Class 10 Nepali Guide
+                      </a>
+                  </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class11english.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">
+                  Class 11 English Guide
+                  </a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class11nepali.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Class 11 Nepali Guide
+                 </a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class12english.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500"> Class 12 English Guide
+                </a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                <a href="class12nepali.html" class="no-underline hover:underline text-gray-800 hover:text-pink-500"ont> Class 12 Nepali Guide</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+     
+    </footer>
+   
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+  </body>
+</html>
